@@ -1,0 +1,34 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Variable.Local.sUserGroups.Declare(String)
+Variable.Local.bChk.Declare(Boolean)
+Function.Intrinsic.Variable.SetProperty("000208","FC",0)
+Function.Intrinsic.Variable.SetProperty("000208","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000210","FC",0)
+Function.Intrinsic.Variable.SetProperty("000210","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000207","FC",0)
+Function.Intrinsic.Variable.SetProperty("000207","BC",65535)
+Variable.passed.000128.set("Crear Ruta")
+Function.Intrinsic.Variable.SetProperty("000128","FC",0)
+Function.Intrinsic.Variable.SetProperty("000128","BC",65280)
+Variable.passed.000084.set("Inser. Antes")
+Function.Intrinsic.Variable.SetProperty("000084","FC",0)
+Function.Intrinsic.Variable.SetProperty("000084","BC",65535)
+Variable.passed.000085.set("Inser. Desp")
+Function.Intrinsic.Variable.SetProperty("000085","FC",0)
+Function.Intrinsic.Variable.SetProperty("000085","BC",65535)
+Variable.passed.000081.set("Guardar")
+Function.Intrinsic.Variable.SetProperty("000081","FC",0)
+Function.Intrinsic.Variable.SetProperty("000081","BC",65535)
+Variable.passed.000125.set("Explosionar Todo")
+Function.Intrinsic.Variable.SetProperty("000125","FC",0)
+Function.Intrinsic.Variable.SetProperty("000125","BC",40188)
+Variable.passed.000126.set("Impl Todo")
+Function.Intrinsic.Variable.SetProperty("000126","FC",0)
+Function.Intrinsic.Variable.SetProperty("000126","BC",40188)
+Program.Sub.Main.end
