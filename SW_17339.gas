@@ -1,0 +1,16 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Variable.Local.sUserGroups.Declare(String)
+Variable.Local.bChk.Declare(Boolean)
+Variable.passed.000184.set("W/L/C")
+Function.Intrinsic.Variable.SetProperty("000184","FC",0)
+Function.Intrinsic.Variable.SetProperty("000184","BC",65535)
+Variable.passed.000001.set("Guardar")
+Function.Intrinsic.Variable.SetProperty("000001","FC",0)
+Function.Intrinsic.Variable.SetProperty("000001","BC",65535)
+Program.Sub.Main.end
