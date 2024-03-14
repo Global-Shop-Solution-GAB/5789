@@ -1,0 +1,17 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Variable.Local.sUserGroups.Declare(String)
+Variable.Local.bChk.Declare(Boolean)
+Function.Intrinsic.Variable.SetProperty("000018","FC",0)
+Function.Intrinsic.Variable.SetProperty("000018","BC",40188)
+Variable.passed.000017.set("Aceptar")
+Function.Intrinsic.Variable.SetProperty("000017","FC",0)
+Function.Intrinsic.Variable.SetProperty("000017","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000020","FC",0)
+Function.Intrinsic.Variable.SetProperty("000020","BC",65535)
+Program.Sub.Main.end
