@@ -1,0 +1,39 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Variable.Local.sUserGroups.Declare(String)
+Variable.Local.bChk.Declare(Boolean)
+Variable.passed.000169.set("Num Guia Despacho")
+Function.Intrinsic.Variable.SetProperty("000169","FC",0)
+Function.Intrinsic.Variable.SetProperty("000169","BC",65535)
+Variable.passed.000199.set("F Envio")
+Function.Intrinsic.Variable.SetProperty("000199","FC",0)
+Function.Intrinsic.Variable.SetProperty("000199","BC",65535)
+Variable.passed.000141.set("F Entrega")
+Function.Intrinsic.Variable.SetProperty("000141","FC",0)
+Function.Intrinsic.Variable.SetProperty("000141","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000341","FC",0)
+Function.Intrinsic.Variable.SetProperty("000341","BC",65535)
+Variable.passed.000016.set("Cant a Enviar")
+Function.Intrinsic.Variable.SetProperty("000016","FC",0)
+Function.Intrinsic.Variable.SetProperty("000016","BC",65535)
+Variable.passed.000023.set("Disponible")
+Function.Intrinsic.Variable.SetProperty("000023","FC",0)
+Function.Intrinsic.Variable.SetProperty("000023","BC",65535)
+Variable.passed.000002.set("Guardar")
+Function.Intrinsic.Variable.SetProperty("000002","FC",0)
+Function.Intrinsic.Variable.SetProperty("000002","BC",65535)
+Variable.passed.000003.set("Lote/Cont")
+Function.Intrinsic.Variable.SetProperty("000003","FC",0)
+Function.Intrinsic.Variable.SetProperty("000003","BC",65280)
+Variable.passed.000004.set("Direcc Adic")
+Function.Intrinsic.Variable.SetProperty("000004","FC",0)
+Function.Intrinsic.Variable.SetProperty("000004","BC",65280)
+Variable.passed.000156.set("Texto")
+Function.Intrinsic.Variable.SetProperty("000156","FC",0)
+Function.Intrinsic.Variable.SetProperty("000156","BC",65535)
+Program.Sub.Main.end
