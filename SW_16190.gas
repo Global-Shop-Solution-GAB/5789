@@ -1,0 +1,43 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Variable.Local.sUserGroups.Declare(String)
+Variable.Local.bChk.Declare(Boolean)
+Variable.passed.000137.set("Fecha de Requisición")
+Function.Intrinsic.Variable.SetProperty("000137","FC",0)
+Function.Intrinsic.Variable.SetProperty("000137","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000136","FC",0)
+Function.Intrinsic.Variable.SetProperty("000136","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000135","FC",0)
+Function.Intrinsic.Variable.SetProperty("000135","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000131","FC",0)
+Function.Intrinsic.Variable.SetProperty("000131","BC",65535)
+Variable.passed.000130.set("Fecha de Entrega")
+Function.Intrinsic.Variable.SetProperty("000130","FC",0)
+Function.Intrinsic.Variable.SetProperty("000130","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000124","FC",0)
+Function.Intrinsic.Variable.SetProperty("000124","BC",65535)
+Variable.passed.000123.set("Cant Compra")
+Function.Intrinsic.Variable.SetProperty("000123","FC",0)
+Function.Intrinsic.Variable.SetProperty("000123","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000121","FC",0)
+Function.Intrinsic.Variable.SetProperty("000121","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000113","FC",0)
+Function.Intrinsic.Variable.SetProperty("000113","BC",16776960)
+Function.Intrinsic.Variable.SetProperty("000112","FC",0)
+Function.Intrinsic.Variable.SetProperty("000112","BC",16776960)
+Function.Intrinsic.Variable.SetProperty("000110","FC",0)
+Function.Intrinsic.Variable.SetProperty("000110","BC",16776960)
+Function.Intrinsic.Variable.SetProperty("000109","FC",0)
+Function.Intrinsic.Variable.SetProperty("000109","BC",65280)
+Function.Intrinsic.Variable.SetProperty("000108","FC",0)
+Function.Intrinsic.Variable.SetProperty("000108","BC",65280)
+Variable.passed.000091.set("Guardar")
+Function.Intrinsic.Variable.SetProperty("000091","FC",0)
+Function.Intrinsic.Variable.SetProperty("000091","BC",65535)
+Variable.passed.000120.set("Comprador sugerido")
+Program.Sub.Main.end
