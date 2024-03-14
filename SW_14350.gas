@@ -1,0 +1,48 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Variable.Local.sUserGroups.Declare(String)
+Variable.Local.bChk.Declare(Boolean)
+Function.Intrinsic.Variable.SetProperty("000144","FC",0)
+Function.Intrinsic.Variable.SetProperty("000144","BC",65535)
+Variable.passed.000137.set("Nombre 1")
+Function.Intrinsic.Variable.SetProperty("000137","FC",0)
+Function.Intrinsic.Variable.SetProperty("000137","BC",65535)
+Variable.passed.000136.set("Nombre 2")
+Function.Intrinsic.Variable.SetProperty("000136","FC",0)
+Function.Intrinsic.Variable.SetProperty("000136","BC",65535)
+Variable.passed.000135.set("Nombre 3")
+Function.Intrinsic.Variable.SetProperty("000135","FC",0)
+Function.Intrinsic.Variable.SetProperty("000135","BC",65535)
+Variable.passed.000134.set("Calle y No")
+Function.Intrinsic.Variable.SetProperty("000134","FC",0)
+Function.Intrinsic.Variable.SetProperty("000134","BC",65535)
+Variable.passed.000133.set("Colonia")
+Function.Intrinsic.Variable.SetProperty("000133","FC",0)
+Function.Intrinsic.Variable.SetProperty("000133","BC",65535)
+Variable.passed.000131.set("Pais/Delegacion")
+Function.Intrinsic.Variable.SetProperty("000131","FC",0)
+Function.Intrinsic.Variable.SetProperty("000131","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000130","FC",0)
+Function.Intrinsic.Variable.SetProperty("000130","BC",65535)
+Variable.passed.000124.set("Moneda Catalogo")
+Function.Intrinsic.Variable.SetProperty("000124","FC",0)
+Function.Intrinsic.Variable.SetProperty("000124","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000111","FC",0)
+Function.Intrinsic.Variable.SetProperty("000111","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000113","FC",0)
+Function.Intrinsic.Variable.SetProperty("000113","BC",65535)
+Variable.passed.000051.set("Dir de Desp Adic")
+Function.Intrinsic.Variable.SetProperty("000051","FC",0)
+Function.Intrinsic.Variable.SetProperty("000051","BC",65535)
+Variable.passed.000132.set("Ciudad / CP")
+Function.Intrinsic.Variable.SetProperty("000132","FC",0)
+Function.Intrinsic.Variable.SetProperty("000132","BC",65535)
+Variable.passed.000129.set("RFC/Atencion a:")
+Function.Intrinsic.Variable.SetProperty("000129","FC",0)
+Function.Intrinsic.Variable.SetProperty("000129","BC",65535)
+Program.Sub.Main.end
