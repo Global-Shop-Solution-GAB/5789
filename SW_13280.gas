@@ -1,0 +1,19 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Variable.Local.sUserGroups.Declare(String)
+Variable.Local.bChk.Declare(Boolean)
+Variable.passed.000123.set("Factor de Conversión de Compra")
+Function.Intrinsic.Variable.SetProperty("000123","FC",0)
+Function.Intrinsic.Variable.SetProperty("000123","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000125","FC",0)
+Function.Intrinsic.Variable.SetProperty("000125","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000111","FC",0)
+Function.Intrinsic.Variable.SetProperty("000111","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000130","FC",0)
+Function.Intrinsic.Variable.SetProperty("000130","BC",16776960)
+Program.Sub.Main.end
