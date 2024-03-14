@@ -1,0 +1,20 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Variable.Local.sUserGroups.Declare(String)
+Variable.Local.bChk.Declare(Boolean)
+Function.Intrinsic.Variable.SetProperty("000183","FC",0)
+Function.Intrinsic.Variable.SetProperty("000183","BC",40188)
+Variable.passed.000187.set("Ruta Existente")
+Function.Intrinsic.Variable.SetProperty("000187","FC",0)
+Function.Intrinsic.Variable.SetProperty("000187","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000182","FC",0)
+Function.Intrinsic.Variable.SetProperty("000182","BC",65535)
+Variable.passed.000175.set("Ingresa una Y para CONSTRUIR una Ruta o una R para RECONSTRUIRLA")
+Function.Intrinsic.Variable.SetProperty("000175","FC",0)
+Function.Intrinsic.Variable.SetProperty("000175","BC",65535)
+Program.Sub.Main.end
