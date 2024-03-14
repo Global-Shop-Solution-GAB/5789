@@ -1,0 +1,31 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Variable.Local.sUserGroups.Declare(String)
+Variable.Local.bChk.Declare(Boolean)
+Function.Intrinsic.Variable.SetProperty("000288","FC",0)
+Function.Intrinsic.Variable.SetProperty("000288","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000289","FC",0)
+Function.Intrinsic.Variable.SetProperty("000289","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000285","FC",0)
+Function.Intrinsic.Variable.SetProperty("000285","BC",65280)
+Variable.passed.000287.set("Fecha Despacho")
+Function.Intrinsic.Variable.SetProperty("000287","FC",0)
+Function.Intrinsic.Variable.SetProperty("000287","BC",65535)
+Variable.passed.000280.set("F Entrega")
+Function.Intrinsic.Variable.SetProperty("000280","FC",0)
+Function.Intrinsic.Variable.SetProperty("000280","BC",65535)
+Variable.passed.000135.set("Numero de Seguimiento (Guia)")
+Function.Intrinsic.Variable.SetProperty("000135","FC",0)
+Function.Intrinsic.Variable.SetProperty("000135","BC",40188)
+Variable.passed.000185.set("No. Conocimiento de Embarque")
+Function.Intrinsic.Variable.SetProperty("000185","FC",0)
+Function.Intrinsic.Variable.SetProperty("000185","BC",40188)
+Variable.passed.000278.set("Cantidad Despachada")
+Function.Intrinsic.Variable.SetProperty("000278","FC",0)
+Function.Intrinsic.Variable.SetProperty("000278","BC",65535)
+Program.Sub.Main.end
