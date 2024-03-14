@@ -1,0 +1,28 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Variable.Local.sUserGroups.Declare(String)
+Variable.Local.bChk.Declare(Boolean)
+Function.Intrinsic.Variable.SetProperty("000099","FC",0)
+Function.Intrinsic.Variable.SetProperty("000099","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000098","FC",0)
+Function.Intrinsic.Variable.SetProperty("000098","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000089","FC",0)
+Function.Intrinsic.Variable.SetProperty("000089","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000092","FC",0)
+Function.Intrinsic.Variable.SetProperty("000092","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000091","FC",0)
+Function.Intrinsic.Variable.SetProperty("000091","BC",65535)
+Variable.passed.000084.set("Número de Máquinas")
+Function.Intrinsic.Variable.SetProperty("000084","FC",0)
+Function.Intrinsic.Variable.SetProperty("000084","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000076","FC",0)
+Function.Intrinsic.Variable.SetProperty("000076","BC",65280)
+Function.Intrinsic.UI.ChangeCallerProperty(variable.passed.000076, "LOCK", 1)
+Function.Intrinsic.Variable.SetProperty("000075","FC",0)
+Function.Intrinsic.Variable.SetProperty("000075","BC",65535)
+Program.Sub.Main.end
