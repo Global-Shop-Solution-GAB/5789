@@ -1,0 +1,34 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Variable.Local.sUserGroups.Declare(String)
+Variable.Local.bChk.Declare(Boolean)
+Variable.passed.000125.set("Nombre 1")
+Variable.passed.000124.set("Nombre 2")
+Variable.passed.000123.set("Nombre 3")
+Variable.passed.000122.set("Calle / No.")
+Variable.passed.000121.set("Colonia")
+Variable.passed.000120.set("Ciudad / Estado")
+Variable.passed.000119.set("Codigo Postal")
+Variable.passed.000118.set("Pais / No Int.")
+Variable.passed.000117.set("Atencion")
+Variable.passed.000131.set("Número de Orden de Compra")
+Function.Intrinsic.Variable.SetProperty("000131","FC",0)
+Function.Intrinsic.Variable.SetProperty("000131","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000132","FC",0)
+Function.Intrinsic.Variable.SetProperty("000132","BC",65535)
+Variable.passed.000110.set("Fecha de Entrega")
+Function.Intrinsic.Variable.SetProperty("000110","FC",0)
+Function.Intrinsic.Variable.SetProperty("000110","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000104","FC",0)
+Function.Intrinsic.Variable.SetProperty("000104","BC",65535)
+Function.Intrinsic.Variable.SetProperty("000102","FC",0)
+Function.Intrinsic.Variable.SetProperty("000102","BC",65535)
+Variable.passed.000054.set("Lineas")
+Function.Intrinsic.Variable.SetProperty("000054","FC",0)
+Function.Intrinsic.Variable.SetProperty("000054","BC",65535)
+Program.Sub.Main.end
